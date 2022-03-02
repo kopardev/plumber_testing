@@ -1,2 +1,2 @@
-# plumber_testing
-Developing Test API with Plumber
+# Plumber testing
+Developing Test APIs with [Plumber](https://www.rplumber.io/).
