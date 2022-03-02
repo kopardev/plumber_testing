@@ -2,6 +2,14 @@
 #* @apiTitle Addition
 #* @apiDescription Adds two numbers
 #* @post /add
-function(x,y){
+add <- function(x,y){
   as.numeric(x) + as.numeric(y)
+}
+
+#* @apiTitle Subtraction
+#* @apiDescription Subtracts second number from the first
+#* @post /subtract
+add <- function(x,y){
+  z <- as.numeric(x) - as.numeric(y)
+  return(z)
 }
